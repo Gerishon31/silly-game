@@ -10,11 +10,15 @@
     <style>
     body {
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      width: 400px;
-      background: rgba(250, 20, 219, 0.308);
+      width: 800px;
+      background: url(./img/cg.jpeg) center; 
     }
-    label {
-	  font-weight: bold
+    label 
+    {
+    color:rgb(245, 9, 28);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	  font-weight: bold;
 	  font-style: italic;
     }
     div {
@@ -30,7 +34,7 @@
       padding: 10px;
 	  visibility: hidden;
 	  font-optical-sizing: deck;
-	  font-size: 20px;
+	  font-size: 23px;
 	  font-style: oblique;
     }
     </style>
@@ -46,9 +50,8 @@
       <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
     </div>
     <div>
-      <button class="randomize">Generate random story</button>
+      <button class="randomize"  style="background-color:rgba(243, 22, 59, 0.959)"> Generate random story</button>
     </div>
-    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
     
 <script src="stry.js"></script>
